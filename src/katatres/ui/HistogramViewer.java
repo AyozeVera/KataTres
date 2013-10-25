@@ -1,5 +1,7 @@
 
-package katatres;
+package katatres.ui;
+
+import katatres.model.Histogram;
 
 
 public class HistogramViewer {

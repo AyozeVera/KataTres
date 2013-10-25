@@ -1,4 +1,4 @@
-package katatres;
+package katatres.model;
 
 import java.util.HashMap;
 
