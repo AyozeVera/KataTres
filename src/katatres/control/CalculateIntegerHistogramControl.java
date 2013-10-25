@@ -5,10 +5,10 @@ import katatres.model.HistogramBuilder;
 import katatres.ui.HistogramViewer;
 
 
-public class CalculateHistogramControl {
-    Integer[] array;
+public class CalculateIntegerHistogramControl {
+    private Integer[] array;
 
-    public CalculateHistogramControl(Integer[] array) {
+    public CalculateIntegerHistogramControl(Integer[] array) {
         this.array = array;
     }
     
