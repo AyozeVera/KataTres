@@ -2,8 +2,6 @@
 package katatres.control;
 
 import java.io.FileNotFoundException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import katatres.model.HistogramBuilder;
 import katatres.persistence.MailReader;
 import katatres.ui.HistogramViewer;
@@ -13,9 +11,10 @@ public class CalculateEmailDomainHistogramControl {
    
     private String filename;
 
-    public CalculateEmailDomainHistogramControl() {
+    public CalculateEmailDomainHistogramControl(String filename) {
         this.filename = filename;
     }
+
     
     public void execute(){
         HistogramBuilder <String> builder = new HistogramBuilder<>();

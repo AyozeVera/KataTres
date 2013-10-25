@@ -26,7 +26,7 @@ public class MailReader {
                 break;
             }
         }
-        return (String[]) list.toArray();
+        return list.toArray(new String[0]);
         
     }
 
