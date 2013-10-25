@@ -6,9 +6,14 @@ import katatres.ui.HistogramViewer;
 
 
 public class CalculateHistogramControl {
+    Integer[] array;
+
+    public CalculateHistogramControl(Integer[] array) {
+        this.array = array;
+    }
+    
     public void execute(){
-        int[] array = {1,2,1,5,1,2,3};
-        HistogramBuilder builder = new HistogramBuilder();
+        HistogramBuilder<Integer> builder = new HistogramBuilder();
         builder.calculate(array);
         HistogramViewer viewer = new HistogramViewer(builder.getHistogram());
         viewer.show();

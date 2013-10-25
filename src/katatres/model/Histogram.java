@@ -3,6 +3,6 @@ package katatres.model;
 import java.util.HashMap;
 
 
-public class Histogram extends HashMap<Integer,Integer>{
+public class Histogram<Key> extends HashMap<Key,Integer>{
         
 }
